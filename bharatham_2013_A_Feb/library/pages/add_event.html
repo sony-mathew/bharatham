@@ -1,0 +1,43 @@
+
+<div class="message" style="background:black;"> Add Event </div>
+<form method="post" action="index.php?go=add_event">
+                              
+        <div id="line"><div class="linel">Event : </div> <div class="liner"><input type="text" name="event" maxlength="100" /></div></div>
+        <div id="line"><div class="linel">Type  :   </div> <div class="liner">
+                                                           <select name="event_type">
+                                                                       <option> Individual </option>
+                                                                       <option> Group </option>
+                                                                       <option> Dual </option>
+                                                           </select> 
+                                                    </div></div>
+        <div id="line"><div class="linel"><b> Points </b></div> <div class="liner"> </div></div>
+        <div id="line"><div class="linel"> First :  </div> <div class="liner">
+                                                                  <select name="point_first"> 
+																		<option> 5 </option>
+																		<option> 10</option>
+																		<option> 15 </option>
+																		<option> 20 </option>
+																		<option> 30</option>
+																  </select>
+													</div></div>
+        <div id="line"><div class="linel"> Second : </div> <div class="liner">
+																<select name="point_second"> 
+																	<option> 3 </option>
+																	<option> 5</option>
+																	<option> 10 </option>
+																	<option> 15 </option>
+																	<option> 20</option>
+															    </select> 
+													</div></div>
+        <div id="line"><div class="linel"> Third : </div> <div class="liner">
+        														<select name="point_third"> 
+																		<option> 1 </option>
+																		<option> 2</option>
+																		<option> 5 </option>
+																		<option> 10 </option>
+															   </select>
+												   </div></div>
+                             
+        <input type="hidden" name="check" value="add_event" />
+        <div id="line"> <div class="linel">&nbsp;</div><div class="liner"> <input type="submit" value="Submit" style="width:100px;height:35px;"/>  </div></div> 
+ </form>

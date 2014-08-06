@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="robots" content="all,follow" />
+
+    <meta name="author" lang="en" content="ynos" />
+    
+    <title>Bharatham</title>
+
+<style>
+
+body 
+   {
+    width : 80%;
+    margin : auto;
+   }
+#main 
+   {
+      border : 1px solid grey;
+      width : 300px;
+      margin : auto;
+      margin-top:100px;
+      height: 360px;
+      font-family: verdana;
+   }   
+.line
+    {
+        margin-top: 10px;
+        height : 25px; 
+        float : left;
+    //    border : 1px solid #d6d6d6;
+
+    }   
+.button
+     {
+        width : 70px;
+        height : 33px;
+        font-size : 17;
+        font-family: verdana;
+        color : white;
+        background : cadetblue;
+        border : 1px solid grey;
+     }    
+.button:hover
+      {
+        color : cadetblue;
+        background : white;
+      }     
+</style>
+
+</head>
+
+<body>
+<div id="main">
+   <div class="line" style="background : cadetblue; width:285px;font-size:17px; color:white;padding-left:15px;padding-top:10px;padding-bottom:10px;"> 
+    Login ({date})</div>
+   <form method="post" action="index.php"> 
+
+
+   <div class="line" style="width:300px;margin-top:10px; padding-left:30px;">
+          <div class="line" style="width:150px;text-align:left;"> Have a gooday..!!</div>
+   </div>
+   <div class="line" style="width:300px;"/>
+   <div class="line" style="width:300px;margin-top:60px; padding-left:30px;">
+          <div class="line" style="width:80px;text-align:left;"> Username </div>
+          <div class="line" style="width:80px;text-align:left;margin-left:20px;"> <input type="text" name="user" maxlength="15" /></div>
+   </div>
+   <div class="line" style="width:300px;"/>
+   <div class="line" style="width:300px;padding-left:30px;">
+          <div class="line" style="width:80px;text-align:left;"> Password </div>
+          <div class="line" style="width:80px;text-align:left;margin-left:20px;"> <input type="password" name="pass" maxlength="15" /></div>
+   </div>
+   <div class="line" style="width:300px;"/>
+   <div class="line" style="width:300px;"/>
+   <div class="line" style="width:300px;"/>
+   <div class="line" style="width:300px;padding-left:30px;">
+          <div class="line" style="width:80px;text-align:left;"></div>
+          <div class="line" style="width:80px;text-align:left;"> <input type="submit" name="Submit" class="button" /></div>
+   </div>
+   <input type="hidden" name="login" value="1" />
+   </form>
+</div>
+
+</body>
+</html>

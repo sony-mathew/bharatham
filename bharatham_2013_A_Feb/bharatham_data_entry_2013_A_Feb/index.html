@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>gbowr</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1><a href="#">Bharatham - Student Data Entry</a></h1>
+<br></br>
+<h4 style=" text-align:right; "> Welcome Mr. Bharathan Pilla </h4>
+</div>
+
+<div class="right"> 
+
+<h2><a href="#">Fill in the boxes given below.</a></h2>
+
+<div id="line"> {msg} </div>
+
+<form method="post" action="index.php?enter=1">
+
+<div id="line">
+<div class="linel">   Name : </div> <div class="liner"><input type="text" name="name" maxlength="100" /></div></div>
+
+<div id="line">
+   <div class="linel">Mobile  :   </div> <div class="liner"><input type="text" name="phone" maxlength="10">   </div></div>
+<div id="line">
+   <div class="linel">Course year : </div> <div class="liner"><select name="year">
+  <option> 1st year </option>
+  <option> 2nd year </option>
+  <option> 3rd year </option>
+  <option> 4th year </option>
+</select>   </div></div>
+
+<div id="line">
+   <div class="linel">Branch : </div> <div class="liner"><select name="branch">
+  <option> ECE </option>
+  <option> CSE </option>
+  <option> AEI </option>
+  <option> IT </option>
+  <option> EEE </option>
+  <option> MEC </option>
+</select> </div></div>
+<input type="hidden" name="check" value="1" />
+
+  <div id="line"> <div class="liner"> <input type="submit" value="Submit" style="width:100px;height:35px;"/>  </div></div> 
+
+</form> 
+</div>
+
+<div class="left"> 
+
+<ul>
+<li><a href="index.php?show=database">Database</a></li>
+</ul>
+
+</div>
+
+<div style="clear: both;"> </div>
+
+<div id="footer">
+<a href="http://www.google.co.in/search?q=ynos1234" target="_blank" >Design by ynos1234</a></div>
+
+</div>
+
+</body>
+</html>

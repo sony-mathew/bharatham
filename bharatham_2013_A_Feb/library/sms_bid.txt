@@ -1,0 +1,1 @@
+919539600000{seperator}Bha Bid 1{seperator}2013-02-01 12:30:30{line-delimiter}918891600000{seperator}Bha bid 3{seperator}2013-02-01 12:30:50{line-delimiter}
